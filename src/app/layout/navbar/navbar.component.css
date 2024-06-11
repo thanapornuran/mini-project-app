@@ -1,0 +1,12 @@
+nav {
+    background-color: #faae2b;
+    padding: 1.5%;
+    color: #00473e;
+    font-size: large;
+    max-width: 100%;
+
+    border-style: solid;
+    border-color: #00332c;
+    border-width: 1px;
+    /* margin: 0; */
+}

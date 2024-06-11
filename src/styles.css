@@ -1,1 +1,20 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Tiny5&display=swap');
+
+* {
+    font-family: Tiny5;
+}
+
+body {
+    font-family: Tiny5;
+    /* background-color: aqua; */
+    background-color: #f2f7f5;
+    margin: 0;
+    color: #475d5b;
+}
+
+.tiny5-regular {
+    font-family: "Tiny5", sans-serif;
+    /* font-weight: 400; */
+    font-style: normal;
+  }

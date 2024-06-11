@@ -1,0 +1,18 @@
+<p>weather works!</p>
+
+<div class="card">
+  <form class="card-body" #myForm="ngForm" (ngSubmit)="handleSubmit(myForm)">
+    <div class="mb-3 card-title">
+      <label for="city" class="form-label">City</label>
+      <input class="form-control" placeholder="Bangkok" type="city" name="city" id="city" ngModel required>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+  <div class="card-body text-center fw-bold">
+    <p for=""> City : {{ city }} </p>
+    <p> Tem : {{ data.app_temp }} </p>
+    <img src="https://cdn-icons-png.freepik.com/512/7604/7604060.png?uid=R5606439&ga=GA1.1.1950071515.1717731620" alt="" style="width: 10%;">
+  </div>
+
+</div>
+
