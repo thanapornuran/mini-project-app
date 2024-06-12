@@ -1,3 +1,12 @@
 .body-side {
   font-size: large;
 }
+
+.calculator-button button {
+  padding: 1%;
+  font-size: larger;
+}
+
+.calculator-button button:hover {
+  background-color: antiquewhite;
+}

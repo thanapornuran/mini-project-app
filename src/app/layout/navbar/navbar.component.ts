@@ -1,8 +1,16 @@
-import { Component } from '@angular/core';
-import { RouterModule } from '@angular/router';
+import {
+  Component
+} from '@angular/core';
+import {
+  RouterModule
+} from '@angular/router';
 
-import { NgTemplateOutlet } from '@angular/common';
-import { NgbToastModule } from '@ng-bootstrap/ng-bootstrap';
+import {
+  NgTemplateOutlet
+} from '@angular/common';
+import {
+  NgbToastModule
+} from '@ng-bootstrap/ng-bootstrap';
 
 @Component({
   selector: 'app-navbar',
@@ -12,5 +20,5 @@ import { NgbToastModule } from '@ng-bootstrap/ng-bootstrap';
   styleUrl: './navbar.component.css'
 })
 export class NavbarComponent {
-
+  
 }

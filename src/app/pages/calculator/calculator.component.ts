@@ -25,6 +25,8 @@ import {
 export class CalculatorComponent {
   data: any;
   
+  number = 0.0;
+
   show = false;
   autohide = true;
 
@@ -34,6 +36,13 @@ export class CalculatorComponent {
     })
   }
 
+  addNumber() {
+    this.number += 1; 
+  }
+
+  minusNumber() {
+    this.number -= 1;
+  }
 }
 
 
